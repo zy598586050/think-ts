@@ -1,0 +1,20 @@
+{
+  "name": "think-ts",
+  "version": "1.0.0",
+  "description": "This is a node framework based on koa2 encapsulation.",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "nodemon --exec ts-node index.ts",
+    "start": "pm2 start dist/config/env.js",
+    "start:test": "NODE_ENV=test pm2 start dist/config/env.js"
+  },
+  "author": "zhangyu",
+  "license": "ISC",
+  "dependencies": {
+    "@types/think-ts-lib": "file:../think-ts-lib-types",
+    "nodemon": "^3.0.1",
+    "think-ts-lib": "file:../think-ts-lib",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
