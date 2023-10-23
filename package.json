@@ -11,7 +11,7 @@
   "author": "zhangyu",
   "license": "ISC",
   "dependencies": {
-    "@types/think-ts-lib": "file:../think-ts-lib-types",
+    "@types/think-ts-lib": "file:../think-ts-type",
     "nodemon": "^3.0.1",
     "think-ts-lib": "file:../think-ts-lib",
     "ts-node": "^10.9.1",
