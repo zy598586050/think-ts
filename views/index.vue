@@ -1,0 +1,1 @@
+<div @click="count++">{{ count }}</div>
