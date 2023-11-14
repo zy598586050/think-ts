@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-11-13 21:07:21
- * @LastEditTime: 2023-11-14 20:15:51
+ * @LastEditTime: 2023-11-14 21:11:59
  */
 export default {
     app: {
@@ -14,13 +14,13 @@ export default {
         log_error_filename: 'logs/log',
         log_error_pattern: 'yyy-MM-dd.log',
         route_path: 'route', // 默认路由文件目录地址
-        controller_path: 'controller', // 默认控制器文件目录地址
-        middleware_path: 'middleware', // 默认中间件文件目录地址
-        view_path: 'views', // 默认视图目录地址
+        controller_path: 'app/controller', // 默认控制器文件目录地址
+        middleware_path: 'app/middleware', // 默认中间件文件目录地址
+        view_path: 'app/views', // 默认视图目录地址
         static_path: 'public', // 默认静态资源目录地址
-        validate_path: 'validate', // 默认验证器目录地址
+        validate_path: 'app/validate', // 默认验证器目录地址
         utils_path: 'utils', // 默认公共函数目录地址
-        model_path: 'service', // 默认模型目录地址
+        model_path: 'app/service', // 默认模型目录地址
         jwt_key: 'ThinkTS', // JWT加密的密钥
         expiresIn: 60 * 60, // JWT过期时间
     }
