@@ -1,0 +1,130 @@
+[2023-11-14T12:13:30.114] [ERROR] error - HttpException [Error]
+    at ApiException (C:\Users\59858\Desktop\think\think-ts-lib\dist\controller.js:70:15)
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:12:17)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:50:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9) {
+  msg: '请求错误',
+  errorCode: 30000,
+  statusCode: 400
+}
+[2023-11-14T12:17:01.631] [ERROR] error - HttpException [Error]
+    at ApiException (C:\Users\59858\Desktop\think\think-ts-lib\dist\controller.js:69:15)
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:12:17)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9) {
+  msg: '请求错误',
+  errorCode: 30000,
+  statusCode: 400
+}
+[2023-11-14T17:04:16.632] [ERROR] error - TypeError: (0 , think_ts_lib_1.M) is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:12)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:05:48.900] [ERROR] error - TypeError: (0 , think_ts_lib_1.M) is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:12)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:07:02.262] [ERROR] error - TypeError: think_ts_lib_1.Utils.a is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:14:30)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:09:01.798] [ERROR] error - TypeError: think_ts_lib_1.Utils.a is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:14:30)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:10:13.997] [ERROR] error - TypeError: (0 , think_ts_lib_1.M) is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:12)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:12:30.885] [ERROR] error - TypeError: (0 , think_ts_lib_1.M) is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:12)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:13:01.474] [ERROR] error - TypeError: (0 , think_ts_lib_1.M) is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:12)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:13:50.139] [ERROR] error - TypeError: (0 , think_ts_lib_1.M) is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:12)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:13:59.404] [ERROR] error - TypeError: (0 , think_ts_lib_1.M) is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:12)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:21:51.102] [ERROR] error - HttpException [Error]
+    at M (C:\Users\59858\Desktop\think\think-ts-lib\dist\controller.js:168:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:5)
+    at async C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:34
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9) {
+  msg: '模型有误[hell]',
+  errorCode: 91000,
+  statusCode: 500
+}
+[2023-11-14T17:22:14.348] [ERROR] error - TypeError: (0 , think_ts_lib_1.M)(...).go is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:22)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:23:00.171] [ERROR] error - TypeError: (0 , think_ts_lib_1.M)(...).go is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:22)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:27:21.415] [ERROR] error - TypeError: (0 , think_ts_lib_1.M)(...).go is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:22)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:30:07.783] [ERROR] error - TypeError: (0 , think_ts_lib_1.M)(...).go is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:22)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:31:40.339] [ERROR] error - TypeError: (0 , think_ts_lib_1.M)(...).go is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:22)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:35:35.435] [ERROR] error - TypeError: (0 , think_ts_lib_1.M)(...).go is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:22)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T17:54:15.553] [ERROR] error - TypeError: (0 , think_ts_lib_1.M)(...).go is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:22)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T18:43:10.982] [ERROR] error - TypeError: think_ts_lib_1.Utils.createToken is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:30)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T18:43:43.581] [ERROR] error - TypeError: think_ts_lib_1.Utils.createToken is not a function
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:30)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9)
+[2023-11-14T18:45:49.536] [ERROR] error - HttpException [Error]
+    at Object.validateToken (C:\Users\59858\Desktop\think\think-ts-lib\dist\utils.js:129:19)
+    at say (C:\Users\59858\Desktop\think\think-ts\controller\hello.ts:13:30)
+    at C:\Users\59858\Desktop\think\think-ts-lib\dist\router.js:49:50
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async exports.default (C:\Users\59858\Desktop\think\think-ts-lib\dist\error.js:12:9) {
+  msg: '非法请求或Token过期',
+  errorCode: 30001,
+  statusCode: 400
+}

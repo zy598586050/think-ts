@@ -1,10 +1,15 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-11-10 16:50:15
- * @LastEditTime: 2023-11-10 16:52:36
+ * @LastEditTime: 2023-11-13 19:10:58
  */
 export default {
-    rule: {},
+    rule: {
+        a: 'email',
+        q: 'require'
+    },
     message: {},
-    scene: {}
+    scene: {
+        say: ['a']
+    }
 }
