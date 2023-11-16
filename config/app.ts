@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-11-13 21:07:21
- * @LastEditTime: 2023-11-14 21:11:59
+ * @LastEditTime: 2023-11-16 16:26:29
  */
 export default {
     app: {
@@ -9,7 +9,7 @@ export default {
         koaBody: {
             multipart: true // 支持multipart-formdate表单，可用于文件上传
         },
-        enableLog: false, // 是否开启日志
+        enableLog: true, // 是否开启日志
         log_info_filename: 'logs/all-logs.log',
         log_error_filename: 'logs/log',
         log_error_pattern: 'yyy-MM-dd.log',
@@ -23,5 +23,9 @@ export default {
         model_path: 'app/service', // 默认模型目录地址
         jwt_key: 'ThinkTS', // JWT加密的密钥
         expiresIn: 60 * 60, // JWT过期时间
+        sqlDebug: true, // 全局SQL调试，开启后执行所有的SQL都会在控制台打印
+        createTime: 'create_time', // 数据库全局创建时间
+        updateTime: 'update_time', // 数据库全局更新时间
+        deleteTime: 'delete_time', // 数据库全局软删除时间
     }
 }
