@@ -1,15 +1,22 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-11-10 16:50:15
- * @LastEditTime: 2023-11-13 19:10:58
+ * @LastEditTime: 2023-11-23 12:07:42
  */
+
+// 验证器
 export default {
+    // 验证规则
     rule: {
-        a: 'email',
-        q: 'require'
+        email: 'email',
+        password: 'require'
     },
-    message: {},
+    // 自定义验证消息提示
+    message: {
+        email: '请正确填写邮箱'
+    },
+    // 按场景划分校验参数
     scene: {
-        say: ['a']
+        sayWorld: ['email', 'password']
     }
 }

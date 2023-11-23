@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/think-ts-lib": "file:../think-ts-type",
+    "axios": "^1.6.2",
     "nodemon": "^3.0.1",
     "think-ts-lib": "file:../think-ts-lib",
     "ts-node": "^10.9.1",

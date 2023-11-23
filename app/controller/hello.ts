@@ -1,21 +1,45 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-10-24 10:04:07
- * @LastEditTime: 2023-11-16 19:12:37
+ * @LastEditTime: 2023-11-23 14:21:02
  */
-import { Context, Controller, ShowSuccess, GetParams, ApiException, View, Utils, M, Db } from 'think-ts-lib'
+import { Context, Controller, ShowSuccess, GetParams, View } from 'think-ts-lib'
 
 export default class HelloController extends Controller {
-  async say(ctx: Context) {
-    //GetParams(ctx, true)
-    // console.log(GetParams(ctx, true, ''))
-    //ApiException()
-    const result = await Db('test').delete({ isDeleteFlag: false, deleteTime: 'deleted_at' })
+
+  // 用于演示 GET接口功能
+  sayHello(ctx: Context) {
+    // 获取传参
+    const params = GetParams(ctx)
+    const result = [{
+      title: 'ThinkTS',
+      subtitle: '欢迎使用ThinkTS框架',
+      doc: 'https://www.thinkts.cn',
+      params
+    }]
     return ShowSuccess(result)
   }
 
-  play(ctx: Context){
-    GetParams(ctx, true)
-    return ShowSuccess()
+  // 用于演示 POST接口功能
+  sayWorld(ctx: Context) {
+    // 获取传参并校验参数
+    const params = GetParams(ctx, true)
+    const result = [{
+      title: 'ThinkTS',
+      subtitle: '欢迎使用ThinkTS框架',
+      doc: 'https://www.thinkts.cn',
+      params
+    }]
+    return ShowSuccess(result)
   }
+
+  // 用于演示视图界面
+  showIndex() {
+    return View('index', {
+      count: 9863763,
+      title: 'ThinkTS',
+      subtitle: '欢迎使用ThinkTS框架'
+    })
+  }
+  
 }
