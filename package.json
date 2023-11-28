@@ -5,7 +5,6 @@
   "scripts": {
     "build": "npx tsc",
     "dev": "nodemon --exec ts-node index.ts",
-    "view": "browser-sync start --proxy 'http://localhost:5985' --files 'views/*.vue' --port 3000",
     "start": "pm2 start dist/config/env.js",
     "start:test": "NODE_ENV=test pm2 start dist/config/env.js"
   },
