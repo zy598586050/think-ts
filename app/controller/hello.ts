@@ -1,9 +1,9 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-10-24 10:04:07
- * @LastEditTime: 2023-11-23 14:21:02
+ * @LastEditTime: 2023-11-30 20:53:26
  */
-import { Context, Controller, ShowSuccess, GetParams, View } from 'think-ts-lib'
+import { Context, Controller, ShowSuccess, GetParams, View, appConfig } from 'think-ts-lib'
 
 export default class HelloController extends Controller {
 
@@ -35,6 +35,8 @@ export default class HelloController extends Controller {
 
   // 用于演示视图界面
   showIndex() {
+    const a = appConfig()
+    console.log(a)
     return View('index', {
       count: 9863763,
       title: 'ThinkTS',
