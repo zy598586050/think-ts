@@ -7,7 +7,7 @@ import { Context, ExceptionType, Utils } from 'think-ts-lib'
 
 // Token校验的中间件
 export default (ctx: Context, next: () => void, error: ExceptionType) => {
-    const token = ctx?.header?.authorization?.split('Bearer ')?.[1]
+    const token = ctx?.header?.authorization?.split('Bearer ')?.[1] || ''
     if (Utils.validateToken(token)) {
         next()
     } else {

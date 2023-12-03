@@ -10,14 +10,14 @@ export default class HelloController extends Controller {
   // 用于演示 GET接口功能
   sayHello(ctx: Context) {
     // 获取传参
-    const params = GetParams(ctx)
+    const params = super.GetParams(ctx)
     const result = [{
       title: 'ThinkTS',
       subtitle: '欢迎使用ThinkTS框架',
       doc: 'https://www.thinkts.cn',
       params
     }]
-    return ShowSuccess(result)
+    return super.ShowSuccess(result)
   }
 
   // 用于演示 POST接口功能
