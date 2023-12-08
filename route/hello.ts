@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-10-18 10:49:20
- * @LastEditTime: 2023-11-23 11:45:51
+ * @LastEditTime: 2023-12-05 09:50:36
  */
 import { RouteType } from 'think-ts-lib'
 import checkLogin from '../app/middleware/checkLogin'

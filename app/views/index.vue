@@ -8,6 +8,7 @@
             <a href="https://github.com/zy598586050/think-ts-lib">GitHub源码</a>
             <a @click="clickLike">点击喜欢：{{ count }}</a>
         </div>
+        <Footer />
     </div>
 </template>
 
@@ -22,6 +23,9 @@ export default {
         clickLike() {
             this.count++
         }
+    },
+    components: {
+        Footer: 'footer'
     }
 }
 </script>
