@@ -106,7 +106,7 @@ npm run start
 
 * [ThinkVue3Admin](https://github.com/zy598586050/think-vue3-admin) 带权限配置的后台管理系统（技术方案集成）
 * [ThinkTSProGo](https://github.com/zy598586050/think-js-pro-go) 带权限配置的后台管理系统GO后端服务（技术方案集成）
-* [ThinkTSWeb](https://gitee.com/zhangyubk/think-ts-web) 移动端功能演示Demo（技术方案集成）
+* [ThinkTSPro](https://gitee.com/zhangyubk/think-ts-pro) 移动端功能演示Demo（技术方案集成）
 * [ThinkTSLIB](https://www.npmjs.com/package/think-ts-lib) 核心依赖
 * [TinkTSCLI](https://www.npmjs.com/package/think-ts-cli) 脚手架
 * ...
