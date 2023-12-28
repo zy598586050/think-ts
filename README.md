@@ -3,13 +3,13 @@
 </p>
 
 <p align="center">
-  <a href="http://www.think-ts.cn">
+  <a href="https://www.think-ts.cn">
     <img src="https://img.shields.io/badge/npm-v1.0.0-blue">
   </a>
-  <a href="http://www.think-ts.cn">
+  <a href="https://www.think-ts.cn">
     <img src="https://img.shields.io/badge/downloads-110k/month-green">
   </a>
-  <a href="http://www.think-ts.cn">
+  <a href="https://www.think-ts.cn">
     <img src="https://codecov.io/gh/element-plus/element-plus/branch/dev/graph/badge.svg?token=BKSBO2GLZI"/>
   </a>
   <br>
@@ -39,6 +39,10 @@
 │   │   └── hello.ts
 │   └── views                   // 视图目录
 │       └── index.vue
+├── build                       // 编译vue的目录
+│   ├── index                   // 页面模块目录
+│   └── build.ts                // 编译脚本
+├── dist                        // 打包目录
 ├── cert                        // 证书文件目录
 │   ├── ali_private_key.pem
 │   ├── wx_private_key.pem
@@ -46,12 +50,12 @@
 ├── config                      // 配置文件目录
 │   ├── alicloud.ts
 │   ├── app.ts
-│   ├── env.ts
 │   ├── database.ts
 │   ├── elasticsearch.ts
 │   ├── mongodb.ts
 │   ├── redis.ts
-│   └── wx.ts
+│   ├── wx.ts
+│   └── pm2.json               // pm2配置文件
 ├── logs                       // 日志输出目录
 │   ├── all-logs.log
 │   └── log.2021-04-29.log
@@ -62,11 +66,15 @@
 ├── websocket                  // websocket长连实现目录
 │   └── ws.ts
 ├── public                     // 静态资源目录
+│   ├── css                    // 样式目录
+│   ├── js                     // 脚本目录
 │   ├── icon.ico
 │   └── index.html
 ├── index.ts                   // 项目入口文件
+├── thinkts.d.ts               // 类型定义文件
 ├── package.json               // 项目配置文件
 ├── tsconfig.json              // TS配置文件
+├── vite.config.ts             // Vite配置文件
 └── README.md                  // 项目说明文件
 ```
 
