@@ -1,0 +1,18 @@
+{
+    "apps": [
+        {
+            "name": "think-ts",
+            "script": "index.ts",
+            "interpreter": "ts-node",
+            "watch": false,
+            "exec_mode": "cluster",
+            "instances": 2,
+            "env_production": {
+                "NODE_ENV": "production"
+            },
+            "env_test": {
+                "NODE_ENV": "test"
+            }
+        }
+    ]
+}

@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-10-18 10:49:20
- * @LastEditTime: 2023-12-05 09:50:36
+ * @LastEditTime: 2023-12-27 21:05:53
  */
 import { RouteType } from 'think-ts-lib'
 import checkLogin from '../app/middleware/checkLogin'
@@ -16,5 +16,5 @@ export default (routes: RouteType) => {
 
     // 视图演示
     routes.get('/', 'hello/showIndex')
-
+    
 }

@@ -7,7 +7,7 @@
     </footer>
 </template>
 
-<style>
+<style lang="scss">
 .footer {
     position: fixed;
     bottom: 0;
@@ -16,12 +16,12 @@
     justify-content: center;
     width: 100%;
     padding: 20px 0;
-}
 
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 </style>
