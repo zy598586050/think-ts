@@ -1,8 +1,3 @@
-<!--
- * @Author: zhangyu
- * @Date: 2023-12-25 18:45:35
- * @LastEditTime: 2023-12-29 11:56:38
--->
 <template>
     <div class="page">
         <div class="expression">:)</div>
