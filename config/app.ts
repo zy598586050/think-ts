@@ -1,11 +1,11 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-11-13 21:07:21
- * @LastEditTime: 2023-11-23 10:17:44
+ * @LastEditTime: 2024-01-04 20:15:41
  */
 export default {
     app: {
-        port: 5985, // 项目启动端口
+        port: 5987, // 项目启动端口
         koaBody: {
             multipart: true // 支持multipart-formdate表单，可用于文件上传
         },
