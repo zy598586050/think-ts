@@ -11,4 +11,4 @@ COPY . .
 EXPOSE 5987
 
 # 运行应用
-CMD ["npm", "start"]
+CMD ["npm", "docker"]
