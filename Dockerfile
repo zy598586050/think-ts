@@ -7,8 +7,8 @@ WORKDIR /thinkts
 # 将项目文件复制到工作目录
 COPY . .
 
-# 暴露5985端口
-EXPOSE 5985
+# 暴露5987端口
+EXPOSE 5987
 
 # 运行应用
 CMD ["npm", "run", "docker"]
