@@ -8,7 +8,7 @@ WORKDIR /thinkts
 COPY . .
 
 # 暴露5985端口
-EXPOSE 5987
+EXPOSE 5985
 
 # 运行应用
 CMD ["npm", "run", "docker"]
