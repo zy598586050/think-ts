@@ -1,7 +1,7 @@
 /*
  * @Author: zhangyu
  * @Date: 2023-10-18 10:49:20
- * @LastEditTime: 2023-12-28 16:03:42
+ * @LastEditTime: 2024-01-05 10:32:38
  */
 import { RouteType } from 'think-ts-lib'
 import checkLogin from '../app/middleware/checkLogin'
@@ -15,7 +15,7 @@ export default (routes: RouteType) => {
     }, checkLogin)
 
     // Vue视图演示
-    routes.get('/vue', 'hello/showVueIndex')
+    routes.get('/', 'hello/showVueIndex')
 
     // React视图演示
     routes.get('/react', 'hello/showReactIndex')
