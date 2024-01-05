@@ -5,7 +5,7 @@
   "scripts": {
     "build:vue": "ts-node build/build.ts",
     "dev": "nodemon --exec ts-node index.ts -e ts,json,vue,html",
-    "docker": "nohup ts-node index.ts 2>&1 &",
+    "docker": "ts-node index.ts",
     "start": "pm2 start config/pm2.json --env production",
     "start:test": "pm2 start config/pm2.json --env test"
   },
