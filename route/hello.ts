@@ -15,9 +15,12 @@ export default (routes: RouteType) => {
     }, checkLogin)
 
     // Vue视图演示
-    routes.get('/', 'hello/showVueIndex')
+    routes.get('/vue', 'hello/showVueIndex')
 
     // React视图演示
     routes.get('/react', 'hello/showReactIndex')
+
+    // Layui视图演示
+    routes.get('/', 'hello/showLayuiIndex')
     
 }

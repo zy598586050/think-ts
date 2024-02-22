@@ -22,7 +22,7 @@
     "react-dom": "^18.2.0",
     "rollup-plugin-copy": "^3.5.0",
     "sass": "^1.69.7",
-    "think-ts-lib": "^1.0.4",
+    "think-ts-lib": "^1.0.5",
     "ts-node": "^10.9.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.10",

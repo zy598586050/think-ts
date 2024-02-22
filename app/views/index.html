@@ -1,0 +1,110 @@
+<template>
+    <div id="layui-app"></div>
+    <script id="template" type="text/html">
+        <div class="page">
+            <div class="expression">:)</div>
+            <h1>{{ d.title }}</h1>
+            <h2>{{ d.subtitle }}</h2>
+            <div class="linkBox">
+                <a href="https://www.thinkts.com">完全开发手册</a>
+                <a href="https://github.com/zy598586050/think-ts-lib">GitHub源码</a>
+                <a @click="clickLike" id="like">点击喜欢：{{ d.count }}</a>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <p>© 2023 ThinkTS. All Rights Reserved.</p>
+                <p>备案号：冀ICP备20015584号-2</p>
+            </div>
+        </footer>
+    </script>
+</template>
+
+<script>
+    layui.use('laytpl', () => {
+        const laytpl = layui.laytpl
+        const tpl = document.getElementById('template').innerHTML
+        const data = JSON.parse('<!--ssr-data-->')
+        const layuiApp = document.getElementById('layui-app')
+
+        // 提取渲染模板的函数
+        const renderTemplate = () => {
+            const template = laytpl(tpl).render(data)
+            layuiApp.innerHTML = template
+
+            // 重新绑定点击事件
+            const likeButton = document.getElementById('like')
+            if (likeButton) {
+                likeButton.addEventListener('click', () => {
+                    data.count++
+                    renderTemplate()
+                })
+            }
+        };
+
+        // 初始渲染
+        renderTemplate()
+    })
+</script>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .page {
+        padding: 24px 48px;
+    }
+
+    .page .expression {
+        font-size: 100px;
+        font-weight: normal;
+    }
+
+    .page h1 {
+        font-size: 42px;
+        margin-top: 12px;
+    }
+
+    .page h2 {
+        font-size: 30px;
+        margin-top: 12px;
+    }
+
+    .page .linkBox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .page a {
+        color: #2E5CD5;
+        text-decoration: none;
+        margin-right: 15px;
+        font-size: 18px;
+    }
+
+    .page a:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+</style>

@@ -50,5 +50,14 @@ export default class HelloController extends Controller {
       subtitle: '欢迎使用ThinkTS框架'
     }, 'react')
   }
+
+  // 用于演示Layui视图界面
+  showLayuiIndex() {
+    return View('index', {
+      count: 9863763,
+      title: 'ThinkTS',
+      subtitle: '欢迎使用ThinkTS框架'
+    }, 'layui')
+  }
   
 }
